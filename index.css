@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #323232;
+    color:white;
+    margin-bottom: 2rem;
+}
+
+.surveyBox{
+    margin-top: 1rem;
+    width:70%;
+    margin: 0 auto;
+    ;
+}
